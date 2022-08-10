@@ -1,0 +1,49 @@
+{
+  "nodes": {
+    "foo.bar": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-rlmmw6lIlkMQIiB+NsnO8wQYWTfle8TA41UREPLP5VY=",
+        "path": "/nix/store/8mik2m5inkjin29v5gv5zc2jji4lab3l-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "foo/bar": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-rlmmw6lIlkMQIiB+NsnO8wQYWTfle8TA41UREPLP5VY=",
+        "path": "/nix/store/8mik2m5inkjin29v5gv5zc2jji4lab3l-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "foo\\bar": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-rlmmw6lIlkMQIiB+NsnO8wQYWTfle8TA41UREPLP5VY=",
+        "path": "/nix/store/8mik2m5inkjin29v5gv5zc2jji4lab3l-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "foo.bar": "foo.bar",
+        "foo/bar": "foo/bar",
+        "foo\\bar": "foo\\bar"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
